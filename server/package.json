@@ -1,0 +1,19 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "express server",
+  "main": "index.js",
+  "author": "Melvin C Varghese",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "express": "4.16.3",
+    "pg": "8.0.3",
+    "cors": "2.8.4",
+    "nodemon": "1.18.3",
+    "body-parser": "*"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node index.js"
+  }
+}
