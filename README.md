@@ -35,9 +35,14 @@ docker run -it -p 4002:3000 melvincv/fs-react-client
 
 ## Docker Compose
 
+Create docker-compose.yml and the nginx folder inthe repo root for local dev deployment
 
+docker compose up --build
 
 ## References
 
 YouTube: Dockerizing a React application with Nodejs Postgres and NginX | dev and prod | step by step
 https://www.youtube.com/watch?v=-pTel5FojAQ
+
+YouTube: Kubernetes Multi Container Deployment | React | Node.js | Postgres | Ingress Nginx | step by step
+https://www.youtube.com/watch?v=OVVGwc90guo
