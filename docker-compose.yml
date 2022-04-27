@@ -22,9 +22,9 @@ services:
       - /app/node_modules
       - ./server:/app
     environment:
-      - PGUSER
-      - PGHOST
-      - PGDATABASE
+      - PGUSER=postgres
+      - PGHOST=postgres
+      - PGDATABASE=postgres
       - PGPASSWORD
       - PGPORT=5432
   client:
