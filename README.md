@@ -39,6 +39,18 @@ Create docker-compose.yml and the nginx folder inthe repo root for local dev dep
 
 docker compose up --build
 
+## Production Build
+
+cd client
+docker build -t melvincv/fs-react-client .
+
+cd server
+docker build -t melvincv/fs-react-server .
+
+docker login
+docker push melvincv/fs-react-client
+docker push melvincv/fs-react-server
+
 ## References
 
 YouTube: Dockerizing a React application with Nodejs Postgres and NginX | dev and prod | step by step
