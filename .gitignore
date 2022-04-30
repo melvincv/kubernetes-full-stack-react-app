@@ -1,6 +1,10 @@
 # Secrets
 .env
 k8s/secrets.yml
+k8s/release.yml
+
+# Others
+client/target
 
 # Logs
 logs

@@ -1,5 +1,8 @@
 # Kubernetes Deployment Series - Full Stack React App
-Deploy a Full Stack React App on Kubernetes using ReactJS + NGINX, Express server and Postgres DB
+
+**Deploy a Full Stack React App on Kubernetes using ReactJS + NGINX, Express server and Postgres DB**
+
+![works with docker desktop](img/works-with-docker.jpg)
 
 ## Development 
 
